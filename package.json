@@ -1,0 +1,17 @@
+{
+  "name": "js-basics-hw",
+  "version": "1.0.0",
+  "description": "Practice some JS basics by building a command-line app!",
+  "main": "star-wars.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Matt Brendzel (matt.brendzel@generalassemb.ly)",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "ansi": "^0.3.1"
+  }
+}
