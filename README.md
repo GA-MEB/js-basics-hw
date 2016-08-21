@@ -29,24 +29,23 @@ trying out something new).
 ## Instructions
 
 Now that you're masters of using the terminal AND JavaScript, you're going to
-help to write a JS-powered command line tool -- specifically, your job will be
-to use your awesome new JavaScript skills to help this tool make decisions based
-on the inputs it gets.
+help to write a JS-powered command line tool -- specifically, a tool to show
+Star Wars-related content in the console when we type in the appropriate
+command.
 
-![Star Wars]()
+![Star Wars](https://cloud.githubusercontent.com/assets/3653013/17828590/79473372-6664-11e6-8ea0-3efc4ab57a56.jpg)
 
 > You may be getting the sense by now that we are a little bit obsessed with
 > Star Wars.
 
-The command line tool we're going to be creating will show Star Wars-related
-content in the console when we type in the appropriate command.
+Your job will be to use your awesome new JavaScript skills to help this tool
+make decisions based on the inputs it gets.
 
-Here is an example of what that will look like.
+Here is an example of what the tool looks like in action.
 
 ```bash
 > node ./star-wars.js ls-films title year
 
-'
 Episode IV - A New Hope | 1977
 Episode V - The Empire Strikes Back | 1980
 Episode VI - Return of the Jedi | 1983
@@ -54,7 +53,6 @@ Episode I - The Phantom Menace | 1999
 Episode II - Attack of the Clones | 2002
 Episode III - Revenge of the Sith | 2005
 Episode VII - The Force Awakens | 2015
-'
 ```
 
 Here's a more detailed description of the interface for this app.
