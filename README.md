@@ -13,14 +13,18 @@
 
 ## Setup
 
-Before you begin, please fork this repo to your GitHub account, and then clone
-that fork somewhere on your local machine.
-Then, navigate to the root directory of the repository and run `npm install` --
-this will download any dependencies that have been specified for this assignment
-to a directory called `node_modules`.
+Make sure that you are on the `master` branch of your `wdi-remote-r2d2` repo.
+Then run `git pull upstream master` to pull the latest materials from the
+instructors' repository. You shouldn't hit a merge conflict here, but if you do,
+flag down an instructor right away.
 
-As you work through this assignment, you should make commits regularly,
-following our [commit guidelines](./commit-guidelines) as well as you can.
+Next, navigate to the directory for today, and go into the `homework` directory.
+There, run the command `npm install` -- this will download any
+assignment-specific JavaScript dependencies into to a directory called
+`node_modules`. Don't worry, this file is hidden from Git by the `.gitignore`
+file.
+
+As you work through this assignment, you should make commits regularly.
 In particular, since there are automated tests built into this assignment, we
 recommend that you make a commit every time that you pass a new test, in
 addition to any other time you feel might be appropriate (e.g. just before
