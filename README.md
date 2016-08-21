@@ -21,8 +21,8 @@ flag down an instructor right away.
 Next, navigate to the directory for today, and go into the `homework` directory.
 There, run the command `npm install` -- this will download any
 assignment-specific JavaScript dependencies into to a directory called
-`node_modules`. Don't worry, this file is hidden from Git by the `.gitignore`
-file.
+`node_modules`. Don't worry, this directory is hidden from Git by the
+`.gitignore` file.
 
 As you work through this assignment, you should make commits regularly.
 In particular, since there are automated tests built into this assignment, we
