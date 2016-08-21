@@ -2,6 +2,15 @@
 
 # Homework : Command-Line Tool
 
+<!-- MATERIALS METADATA -->
+<!--
+  title: 'Command-Line Tool'
+  type: homework
+  duration: ??
+  creators: Matt Brendzel
+  competencies: javascript
+-->
+
 ## Setup
 
 Before you begin, please fork this repo to your GitHub account, and then clone
