@@ -80,7 +80,7 @@ var routeCommand = function(tokens, app){
 
 `routeCommand`'s purpose is to read the arguments that get passed in from
 the command line. As you can see, it takes two arguments: `tokens` and
-`appMethods`. `tokens` is an array of the various arguments given in the
+`app`. `tokens` is an array of the various arguments given in the
 command line. For instance, if we ran the imaginary command
 `node ./star-wars.js whois Anakin Skywalker`
 in the console, the `tokens` array would be
@@ -99,28 +99,28 @@ interface through which we can programatically manipulate the application,
 it might be appropriate to call `app` an **API**, or "application programming
 interface".
 
-Here is some documentation on the different methods available on `app`.
+Here are the different methods on `app` that you can call.
 
--   `listFilms(columnNames)` : Lists info on Star Wars films in the
+-   `app.listFilms(columnNames)` : Lists info on Star Wars films in the
     console. `columnNames` is an array of property names -- it allows us to
     choose which properties of the different films we want to see. Permitted
     column names are 'title', 'year', 'directors', and 'rottentomatoes'. If no
     columns are specified, this method will show all of the properties of each
     movie.
 
--   `listWorlds(columnNames)` : Lists planets that appear in the Star Wars
+-   `app.listWorlds(columnNames)` : Lists planets that appear in the Star Wars
     films. As with `listFilms`, the values in `columnNames` determine which
     properties of the different worlds to show, and if no columns are specified,
     `listWorlds` will show all of the properties of each 'world'. Permitted
     column names are 'name', 'climate', 'appearances', and 'significance'.
 
--   `lightsaber(bladeChars)` : Prints an ASCII lightsaber in the console.
+-   `app.lightsaber(bladeChars)` : Prints an ASCII lightsaber in the console.
     `bladeChars` is string of characters that get used to draw the blade of the
     lightsaber.
 
--   `roll()` : What does this one do? It's a mystery! This function doesn't need
-    any arguments. If you want to stop this function before it finishes running,
-    type `CTRL` + `c` to kill the process.
+-   `app.roll()` : What does this one do? It's a mystery! This function doesn't
+    need any arguments. If you want to stop this function before it finishes
+    running, type `CTRL` + `c` to kill the process.
 
 ### Testing Your Work
 
