@@ -28,6 +28,7 @@ const dataStore = {
 
 const api = {
   listFilms: function(columnNames, options){
+    options = options || {};
     if (!columnNames || columnNames.length === 0) {
       columnNames = ['title', 'year', 'director', 'rottentomatoes'];
     }
