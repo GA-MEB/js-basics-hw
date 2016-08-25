@@ -6,7 +6,6 @@
 <!--
   title: 'Command-Line Tool'
   type: homework
-  duration: ??
   creators: Matt Brendzel
   competencies: javascript
 -->
@@ -138,10 +137,10 @@ Suppose that we wanted the ability to pass in two options flags
 `--after`, which would exclude films made in or before a certain year.
 
 The code for doing the actual filtering has already been written into
-`listFilms`, but in order for it to actually do the work, it needs to get an
-extra argument, called `options`, in order to customize its behavior.
-Specifically, if we wanted to show films made after 1980 but before 2000,
-`options` would need to be `{ before: 1980, after: 2000 }`.
+`listFilms`, but it needs to get an extra argument, an object it calls
+`options`, in order to know exactly what to filter. Specifically, if we wanted
+to show films made after 1980 but before 2000, we would need to pass in the
+following object as the `options` argument: `{ before: 1980, after: 2000 }`.
 
 All you need to do is modify `command-center.js` so that it can parse those
 flags, and their values, from the given list of tokens. Think you're up to the
